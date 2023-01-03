@@ -1,7 +1,7 @@
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import React, { useState } from "react";
 import styled from "styled-components";
-import { sliderItems } from "../Sliderdata.js";
+import { sliderItems } from "../data.js";
 
 const Container = styled.div`
   width: 100%;
@@ -70,6 +70,12 @@ const Button = styled.button`
   font-size: 20px;
   background-color: transparent;
   cursor: pointer;
+  ${'' /* border-radius: 5px; */}
+  font-weight: 600;
+  &:hover {
+    background-color: black;
+    color: white;
+  }
 `;
 
 const Slider = () => {
