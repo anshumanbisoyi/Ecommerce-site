@@ -31,6 +31,7 @@ const Container = styled.div`
   justify-content: center;
   background-color: #f5fbfd;
   position: relative;
+  border-radius: 5px;
   &:hover ${Info} {
     opacity: 1;
   }
@@ -64,6 +65,15 @@ const Icon = styled.div`
     transform: scale(1.1);
   }
 `;
+const Text = styled.div`
+  font-size: 20px;
+  font-weight: medium;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: auto;
+
+`;
 
 const Product = ({ item }) => {
   return (
@@ -81,6 +91,7 @@ const Product = ({ item }) => {
           <FavoriteBorderOutlined />
         </Icon>
       </Info>
+      <Text>₹{item.price}</Text>
     </Container>
   );
 };

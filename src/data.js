@@ -55,35 +55,43 @@ export const sliderItems = [
      {
        id: 1,
        img: Product1,
+       price: 399,
      },
      {
        id: 2,
        img: Product2,
+       price: 699,
      },
      {
        id: 3,
        img: Product3,
+       price: 499,
      },
      {
        id: 4,
        img: Product4,
+       price: 299,
      },
      {
        id: 5,
        img: Product5,
+       price: 329,
      },
      {
        id: 6,
        img: Product6,
+       price: 279,
      },
      {
        id: 7,
-       img:Product7,
+       img: Product7,
+       price: 799,
      },
      {
        id: 8,
        img: Product8,
-     }
+       price: 999,
+     },
    ];
 
 
