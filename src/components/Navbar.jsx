@@ -32,6 +32,10 @@ const SearchContainer = styled.div`
 `;
 const Input = styled.input`
   border: none;
+  :focus {
+    outline: none;
+    border: 1px solid black;
+  }
 `;
 const Center = styled.div`
   flex: 1;

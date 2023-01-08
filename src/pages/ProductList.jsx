@@ -45,7 +45,7 @@ const ProductList = () => {
       <Title>Dresses</Title>
       <FilterContainer>
         <Filter>
-          <FilterText>Filter Products</FilterText>
+          <FilterText>Filter Products: </FilterText>
           <Select>
             <Option disabled selected>
               Color
@@ -74,7 +74,7 @@ const ProductList = () => {
           </Select>
         </Filter>
         <Filter>
-          <FilterText>Sort Products</FilterText>
+          <FilterText>Sort Products: </FilterText>
           <Select>
             <Option disabled selected>
               Sort
