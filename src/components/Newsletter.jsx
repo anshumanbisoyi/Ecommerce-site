@@ -11,7 +11,7 @@ const Container = styled.div`
   flex-direction: column;
 `;
 const Title = styled.h1`
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 700;
   margin-bottom: 20px;
 `;
@@ -42,7 +42,7 @@ const Button = styled.button`
 const Newsletter = () => {
   return (
     <Container>
-      <Title>Newsletter</Title>
+      <Title>Wanna have personalised discounts?</Title>
       <Description>
         Get timely info about the discounts of your favorite products.
       </Description>

@@ -1,4 +1,12 @@
-import { EmailOutlined, Facebook, Instagram,PhoneOutlined, Pinterest, RoomOutlined, Twitter } from "@material-ui/icons";
+import {
+  EmailOutlined,
+  Facebook,
+  Instagram,
+  PhoneOutlined,
+  Pinterest,
+  RoomOutlined,
+  Twitter,
+} from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
 
@@ -35,21 +43,20 @@ const Center = styled.div`
 `;
 
 const Title = styled.h3`
-margin-bottom:30px;
-
+  margin-bottom: 30px;
 `;
 const List = styled.ul`
-margin:0;
-padding:0;
-list-style:none;
-display:flex;
-flex-wrap:wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 `;
 
 const ListItem = styled.li`
-width: 50%;
-margin-bottom:10px;
-cursor:pointer;
+  width: 50%;
+  margin-bottom: 10px;
+  cursor: pointer;
 `;
 const Right = styled.div`
   flex: 1;
@@ -59,12 +66,12 @@ const Right = styled.div`
 `;
 const ContactItem = styled.li`
   list-style: none;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
 `;
 const Payment = styled.img`
-width:50%;
+  width: 50%;
 `;
 
 const Footer = () => {

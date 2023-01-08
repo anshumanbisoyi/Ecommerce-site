@@ -1,21 +1,12 @@
-import Annoucement from "./components/Annoucement";
-import Categories from "./components/Categories";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
-import Newsletter from "./components/Newsletter";
-import Products from "./components/Products";
-import Slider from "./components/Slider";
+
+import Home from "./pages/Home";
+import ProductList from "./pages/ProductList";
 
 
 const App = () => {
   return <div>
-  <Annoucement/>
-    <Navbar/>
-    <Slider/>
-    <Categories/>
-    <Products/>
-    <Newsletter/>
-    <Footer/>
+  {/* <Home/> */}
+ <ProductList/>
   </div>;
 };
 
