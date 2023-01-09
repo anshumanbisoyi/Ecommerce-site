@@ -26,8 +26,6 @@ const FilterText = styled.div`
 const Select = styled.select`
   padding: 10px;
   margin-right: 20px;
-  ${'' /* border: none; */}
-  border-radius: 15px;
   background-color: white;
   color: black;
   :focus {

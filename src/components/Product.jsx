@@ -34,6 +34,7 @@ const Container = styled.div`
   border-radius: 5px;
   &:hover ${Info} {
     opacity: 1;
+    border-radius: 5px;
   }
 `;
 
