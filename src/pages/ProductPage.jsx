@@ -1,4 +1,4 @@
-import { Add, AddCircle, Remove, RemoveCircle } from "@material-ui/icons";
+import { AddCircle, RemoveCircle } from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
 import Annoucement from "../components/Annoucement";
@@ -147,7 +147,6 @@ const Product = () => {
               <AddCircle />
             </AmountContainer>
             <Button>ADD TO CART</Button>
-            <Button>BUY NOW</Button>
           </AddContainer>
         </InfoContainer>
       </Wrapper>
