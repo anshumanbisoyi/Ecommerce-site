@@ -47,13 +47,14 @@ const Input = styled.input`
 const Agrement = styled.span`
   font-size: 12px;
   margin: 20px 0px;
+  color: white;
 `;
 const Button = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  width: 100%;
+  width: 120%;
   height: 40px;
   background-color: white;
   margin-top: 10px;

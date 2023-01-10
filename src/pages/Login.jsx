@@ -1,15 +1,17 @@
 import React from "react";
 import styled from "styled-components";
+import LoginPage from "../assets/LoginPage.jpeg";
 const Container = styled.div`
   width: 100vw;
   height: 100vh;
   background-image: ${
-      "" /* linear-gradient(
+    "" /* linear-gradient(
       rgba(255, 255, 252, 0),
       rgba(252, 252, 252, 0.5)
     ), */
-    }
-    url("https://www.wallpapertip.com/wmimgs/18-185930_black-and-white-wallpaper-model.jpg");
+  }
+    url(${LoginPage});
+    ${'' /* url("https://www.wallpapertip.com/wmimgs/18-185930_black-and-white-wallpaper-model.jpg"); */}
   background-size: cover;
   display: flex;
   align-items: center;
@@ -26,6 +28,7 @@ const Title = styled.h1`
   font-weight: 500;
   text-align: center;
   color: white;
+  
 `;
 const Form = styled.form`
   display: flex;
@@ -37,6 +40,8 @@ const Input = styled.input`
   margin: 20px 10px 0px 0px;
   padding: 10px;
   border-radius: 5px;
+  border: none;
+  outline: none;
   :focus {
     outline: none;
   }
@@ -65,7 +70,7 @@ font-weight: 500;
 color:white;
 cursor:pointer;
 :hover{
-    color: black;
+    color: grey;
 }
 `;
 
