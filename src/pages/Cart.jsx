@@ -4,10 +4,12 @@ import styled from "styled-components";
 import Annoucement from "../components/Annoucement";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import { mobile } from "../responsive";
 
 const Container = styled.div``;
 const Wrapper = styled.div`
   padding: 20px;
+  ${mobile({ padding: "10px" })}
 `;
 const Title = styled.h1`
   font-weight: 300;
@@ -32,7 +34,9 @@ const TopButton = styled.button`
   color: ${(props) => props.type === "filled" && "white"};
 `;
 
-const TopTexts = styled.div``;
+const TopTexts = styled.div`
+  ${mobile({ display: "none" })}
+`;
 const TopText = styled.span`
   text-decoration: underline;
   cursor: pointer;
@@ -41,14 +45,16 @@ const TopText = styled.span`
 const Bottom = styled.div`
   display: flex;
   justify-content: space-between;
+  ${mobile({ flexDirection: "column" })}
 `;
 const Info = styled.div`
   flex: 3;
 `;
 
-const Product=styled.div`
-display:flex;
-justify-content: space-between;
+const Product = styled.div`
+  display: flex;
+  justify-content: space-between;
+  ${mobile({ flexDirection: "column" })}
 `;
 const ProductDetail = styled.div`
 flex:2;
@@ -80,11 +86,12 @@ const ProductId = styled.span``;
 const ProductSize = styled.span``;
 
 const Price = styled.span`
-flex:1;
-display:flex;
-flex-direction: column;
-align-items:center;
-justify-content:center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  ${mobile({ justifyContent:"space-between",flexDirection: "row", padding: "10px" })}
 `;
 
 const ProductAmountContainer=styled.div`
@@ -93,12 +100,14 @@ align-items:center;
 margin-bottom: 20px;
 `;
 const ProductQuantity = styled.div`
-font-size: 24px;
-margin:5px;
+  font-size: 24px;
+  margin: 5px;
+  ${mobile({ margin: "5px 15px" })}
 `;
 const ProductPrice = styled.div`
-font-size: 30px;
-font-weight: 300;
+  font-size: 30px;
+  font-weight: 300;
+  ${mobile({ marginBottom: "20px" })}
 `;
 
 const Hr=styled.hr`
@@ -112,7 +121,7 @@ const Summary = styled.div`
   border: 0.5px solid lightgray;
   border-radius: 5px;
   padding: 20px;
-  height: 34vh;
+  height: 52vh;
   `;
 
 const SummaryTitle= styled.h1`
